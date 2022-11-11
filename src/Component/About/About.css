@@ -1,0 +1,56 @@
+#About{
+padding: 12rem 12rem;
+}
+.AboutContaineer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    height: auto;
+    margin-top: 4rem;
+    align-items: center;
+}
+.pictureFirst{
+    width: 12px;
+}
+.pictureLeft{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.pictureLeft img{
+    width:15rem;
+    box-shadow: 3px 4px 50px cyan;
+   
+}
+.AboutUs{
+    margin-left: 5rem;
+}
+  strong{
+      font-family: cursive;
+    font-size: 20px;
+    color:black;
+  }
+  h1{
+      color: black;
+      font-family: cursive;
+  }
+  p{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: cursive;
+  }
+  /* @media screen and (max-width: 500px) {
+  
+    .pictureLeft{
+        width: 70%;
+    }
+} */
+@media only screen and (max-width: 600px) {
+    .pictureLeft img{
+        width: 8rem;
+    }
+    .AboutUs{
+        font-size: 12px;
+    }
+  }
+ 

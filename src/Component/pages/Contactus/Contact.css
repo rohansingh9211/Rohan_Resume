@@ -1,0 +1,98 @@
+.contactMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:85vh;
+}
+.contactUs{
+    display: flex;
+    justify-content: center;
+   height: 23rem;
+    align-items: center;
+    background: transparent;
+    border-radius: 100px 50px;
+    width: 100%;
+    box-shadow: 33px 0px 30px;
+}
+#input{
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: wheat;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 20px;
+    margin-right: 15px;
+    color: antiquewhite;
+    font-family: fangsong;
+}
+input{
+    border: 1px solid;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 16px;
+}
+.input3{
+    align-items: center;
+    display: flex;
+}
+textarea{
+    width: 70%;
+    height: 100px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+.input4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    align-items: center;
+}
+.input4 input{
+    width: 12rem;
+}
+.footer{
+    background: black;
+    height: 4rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 12px
+
+}
+.footer a:hover{
+    margin: 12px;
+    color: chocolate;
+    padding:12px;
+}
+.MailContact {
+display: grid;
+justify-content: start;
+margin-top: 7px;
+}
+.MailContact a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.MailContact a:hover{
+    color: yellow;
+    margin-right: 13px 12px;
+}
+@media only screen and(max-width:600px) {
+    .contactUs{
+        box-shadow: none;
+    }
+}

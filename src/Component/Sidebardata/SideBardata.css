@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.Header{
+    background-color: #cbd9fe;
+    width: 250px;
+    height: 50%;
+    position: absolute;
+    border-bottom: 4px solid;
+}
+.Header ul a{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 75px;
+    font-size: 20px;
+    color: black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+   
+}
+ul li:hover a{
+   background-color: black;
+   border: 1px solid transparent;
+   border-radius: 12px;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   box-sizing: border-box;
+}

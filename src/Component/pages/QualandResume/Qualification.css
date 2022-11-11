@@ -1,0 +1,49 @@
+.qual{
+    height: 100vh;
+    display: flow-root;
+}
+.qualFirst{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 0fr 0fr;
+    margin-top: 50px;
+    height: 15rem;
+}
+.qualSecond{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 0fr 0fr;
+    margin-top: 10px;
+    height: 10rem;
+}
+h1{
+    color:white;
+    font-family: cursive;
+}
+.qual a{
+    text-decoration: none;
+    background: black;
+    padding: 11px 24px;
+    width: fit-content;
+    color: #00ffff;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.resume{
+   display: inline-block;
+    margin: 12px ;
+}
+.resume img{
+    width: 500px;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 12px 20px;
+    margin: 30px;
+    background: aliceblue;
+    color: black;
+    border-radius: 12px;
+}

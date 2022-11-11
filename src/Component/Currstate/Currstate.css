@@ -1,0 +1,36 @@
+.currState{
+  width: 25px;
+}
+ .popButton{
+    background: radial-gradient(#cbd9fe, transparent);
+    width: fit-content;
+    color: black;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+   right: 1rem;
+}
+  button#states{
+    background:linear-gradient(grey,transparent);
+    width: 8rem;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-family: cursive;
+    font-size: 1rem;
+  }
+  .popButton #Close{
+    background: red;
+    padding: 0px 20px;
+    border-radius: 13px;
+    border: none;
+    display: flex;
+    float: right;
+    width: 5rem;
+    justify-content: center;
+
+  }
+  span{
+      margin: 10px;
+  }

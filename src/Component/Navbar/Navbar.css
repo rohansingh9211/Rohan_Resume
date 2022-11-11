@@ -1,0 +1,26 @@
+.Navbar{
+    background: #cbd9fe;
+    width: auto; 
+}
+.NavbarTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavbarLeft{
+    margin-left: 1rem;
+}
+.NavbarCenter{
+    color: black;
+    font-size: 126%;
+    font-family: cursive;
+    font-weight: bolder;
+    
+}
+.NavbarRight{
+    margin-right: 7rem;
+}
+.NavbarRight button{
+    border:none;
+    background: transparent;
+}

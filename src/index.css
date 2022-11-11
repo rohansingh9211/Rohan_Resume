@@ -1,0 +1,9 @@
+
+body{
+  background:linear-gradient(#262b42,#175188) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
